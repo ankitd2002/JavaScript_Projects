@@ -48,73 +48,72 @@ object create
  rectangleObject.color = 'yellow';
  console.log(rectangleObject);
 
-// delete rectangleObject.color;
-// console.log(rectangleObject);
+ delete rectangleObject.color;
+ console.log(rectangleObject);
 
-// let Rectangle1 = new Function(
-//     'length', 'breadth',
-// `this.length = length;
-// this.breadth = breadth;
-// this.draw= function() {
-//     console.log('drawing');
-// }`);
+ let Rectangle1 = new Function(
+    'length', 'breadth',
+ `this.length = length;
+ this.breadth = breadth;
+ this.draw= function() {
+     console.log('drawing');
+ }`);
 
 // //object creation using Rectangle1
-// let rect = new Rectangle1(2,3);
+ let rect = new Rectangle1(2,3);
 
-// rect.length;
+ rect.length;
 
-// console.log(rect);
-
-
-// rectangle.length;
-// rectangle.breadth;
-
-// rectangle.draw();
-
-// let rectangle1 = {
-//     length: 1,
-//     breadth: 2,
-
-//     draw: function() {
-//         console.log('drawing rectangle');
-//     }
-// };
+ console.log(rect);
 
 
-// let rectangle2 = {
-//     length: 1,
-//     breadth: 2,
+ rectangle.length;
+ rectangle.breadth;
 
-//     draw: function() {
-//         console.log('drawing rectangle');
-//     }
-// };
+ rectangle.draw();
 
+let rectangle1 = {
+     length: 1,
+     breadth: 2,
 
-// let a = 10;
-// let b = a;
-
-// a++;
-// console.log(a);
-// console.log(b);
+    draw: function() {
+        console.log('drawing rectangle');   }
+};
 
 
-// let a = { value: 10};
-// let b = a;
+ let rectangle2 = {
+     length: 1,
+     breadth: 2,
 
-// a.value++;
+     draw: function() {
+         console.log('drawing rectangle');
+     }
+ };
 
-// console.log(a.value);
-// console.log(b.value);
 
-// let a = 10;
+ let a = 10;
+ let b = a;
 
-// function inc(a) {
-//     a++;
-// }
+ a++;
+ console.log(a);
+ console.log(b);
 
-// inc(a);
+
+ let a = { value: 10};
+ let b = a;
+
+ a.value++;
+
+ console.log(a.value);
+ console.log(b.value);
+
+ let a = 10;
+
+ function inc(a) {
+    a++;
+ }
+
+ inc(a);
 
  console.log(a);
 
